@@ -1,0 +1,1390 @@
+[
+  {
+    "id": 21911,
+    "title": "Zero to One Hackathon by Convex Vol 2",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/962/633/datas/medium_square.png",
+    "analytics_identifier": "Zero to One Hackathon by Convex Vol 2 (21911)",
+    "url": "https://convexhackathon2.devpost.com/",
+    "time_left_to_submission": "14 days left",
+    "submission_period_dates": "Jul 30 - Sep 17, 2024",
+    "themes": [
+      { "id": 28, "name": "Databases" },
+      { "id": 25, "name": "Web" },
+      { "id": 6, "name": "Machine Learning/AI" }
+    ],
+    "prize_amount": "$<span data-currency-value>10,000</span>",
+    "organization_name": "Convex",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "WHAT TO BUILD", "list": [] },
+      {
+        "type": "description",
+        "text": "Build a working app (web, mobile or desktop) using Convex. The app must use Convex Auth or one of the recommended Auth providers\u00a0and other Convex features.",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          ["Best full-stack app that uses Convex (overall)"],
+          ["Best Startup Idea"],
+          ["Best use of AI with Convex in your app"],
+          ["Most Viral App on", "or"]
+        ]
+      },
+      {
+        "type": "description",
+        "text": "Complete Hackathon Milestones",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Milestone 1: Getting Started",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          ["Join Convex Discord #"],
+          ["Create your app idea and form your team (max 4)."],
+          ["Create your Convex Account"],
+          ["If you\u2019re new to Convex,"],
+          ["Setup", "or one of the", "Auth providers in your app"]
+        ]
+      },
+      {
+        "type": "description",
+        "text": "Milestone 2: Deploy Your App",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          ["Ensure your app runs locally."],
+          ["Test your app (", ")"],
+          ["Deploy your app using one of the suggested options", "."]
+        ]
+      },
+      {
+        "type": "description",
+        "text": "Milestone 3: Share Your App",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          ["Share your app in the Convex Discord #show and tell channel."],
+          ["Share your app via", "or", "and mention Convex"],
+          ["Ask for user feedback in the #hackathon channel."],
+          ["Submit your working app to judge when the submission period opens."]
+        ]
+      },
+      { "type": "description", "text": "WHAT TO SUBMIT", "list": [] },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          ["Provide a public URL of your", "working app", "."],
+          [
+            "Provide a public URL to your code repository for judging.",
+            [["If private, please share with"]]
+          ],
+          [
+            "Include a video (it should be 3 minutes long) demonstrating how your app works and the data in the Convex dashboard.",
+            [
+              [
+                "Videos must be uploaded to YouTube, Vimeo, or another server with a public URL."
+              ],
+              ["Judges will not be reviewing beyond 3 minutes."]
+            ]
+          ],
+          [
+            "Your complete submission form on Devpost before the final deadline."
+          ],
+          ["Please check the", "for full details."]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21542,
+    "title": "HackAI - Dell and NVIDIA Challenge",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/981/678/datas/medium_square.png",
+    "analytics_identifier": "HackAI - Dell and NVIDIA Challenge (21542)",
+    "url": "https://hackaichallenge.devpost.com/",
+    "time_left_to_submission": "29 days left",
+    "submission_period_dates": "Aug 14 - Oct 02, 2024",
+    "themes": [
+      { "id": 6, "name": "Machine Learning/AI" },
+      { "id": 21, "name": "Enterprise" },
+      { "id": 11, "name": "Productivity" }
+    ],
+    "prize_amount": "$<span data-currency-value>70,176</span>",
+    "organization_name": "Dell",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Build", "list": [] },
+      {
+        "type": "description",
+        "text": "Build a new Generative AI project with NVIDIA AI Workbench and post it on GitHub. The Workbench Project should leverage AI Workbench\u2019s ability to make it easy to get up and running in generative AI applications and drive developer productivity for data science, AI, and machine learning tasks and workflows. Demonstrate the Workbench project running on a GPU system of your choice.",
+        "list": []
+      },
+      { "type": "heading", "text": "What to Submit", "list": [] },
+      {
+        "type": "description",
+        "text": "Provide a URL to your Project on GitHub for judging and testing. Keep your Workbench Project private on GitHub. You will be sharing it with Devpost and NVIDIA.",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Make sure the Project has an explanatory README with instructions on how to run the Project in AI Workbench. Include a text description that explains the features and functionality of the workflow or application you built in your Project. README should indicate target systems needed to run the Project, as well as any sort of restrictions in terms of models or containers used."
+          ],
+          ["You can see an"]
+        ]
+      },
+      {
+        "type": "description",
+        "text": "Include a video (about 3 minutes) that explains and demonstrates your project in action,\u00a0running on a GPU system of your choice. Videos must be uploaded to YouTube or Vimeo and made public.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Social media handles for all team members: LinkedIn, Discord, Twitter.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Optional -\u00a0 blog post included in your GitHub repo. It must be 800-1200 words and should address what was created and how it was created.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Your complete submission form on Devpost before the final deadline.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Non-Category Bonus Prizes",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Most Valuable Feedback Prize: If you have technical tips or tricks, or any other feedback, share it in the Feedback Submission"
+          ],
+          ["Best Written Blog Post: write an optional blog post on GitHub"]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21829,
+    "title": "RevenueCat Ship-a-ton",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/962/140/datas/medium_square.jpg",
+    "analytics_identifier": "RevenueCat Ship-a-ton (21829)",
+    "url": "https://revenuecat-ship-a-ton.devpost.com/",
+    "time_left_to_submission": "16 days left",
+    "submission_period_dates": "Aug 05 - Sep 19, 2024",
+    "themes": [
+      { "id": 18, "name": "Design" },
+      { "id": 26, "name": "Mobile" },
+      { "id": 22, "name": "Open Ended" }
+    ],
+    "prize_amount": "$<span data-currency-value>25,500</span>",
+    "organization_name": "RevenueCat",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Build", "list": [] },
+      {
+        "type": "description",
+        "text": "Release an iOS (iPhone) or Android app to the App Store or Google Play Store that uses the RevenueCat SDK to power at least one in-app purchase. The 1st version of your app must be released in the store during between August 5th and September 18 .",
+        "list": []
+      },
+      { "type": "heading", "text": "What to Submit", "list": [] },
+      {
+        "type": "description",
+        "text": "Each submission must contain the following:",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Short",
+            "description",
+            "of the app (may be the same as the App Store/Play Store description)"
+          ],
+          [
+            "URL",
+            "to your app's page on the App Store and/or Google Play Store"
+          ],
+          ["1024 x 1024 uncropped image of your", "App Icon"],
+          [
+            "At least one",
+            "screenshot",
+            "of the app without device frames.",
+            [["Preferred resolution of 1179px width by 2556px height"]]
+          ],
+          [
+            "OPTIONAL: We recommend including a video demonstration of your app, but this is not required."
+          ],
+          [
+            "App must either offer a",
+            "free trial",
+            "or the submission must include a",
+            "promo code",
+            "for judges to unlock the in-app purchases for testing all premium features."
+          ],
+          [
+            "For apps that want to be eligible for the",
+            "#BuildInPublic Award",
+            ":",
+            [
+              [
+                "Include links to any relevant social accounts and posts/threads where progress was shared in public."
+              ],
+              [
+                "Include a description of how building in public helped benefit the app (motivation, feedback from others, etc)"
+              ]
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21468,
+    "title": "Constellation Metagraph Hackathon",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/941/203/datas/medium_square.png",
+    "analytics_identifier": "Constellation Metagraph Hackathon (21468)",
+    "url": "https://metagraph.devpost.com/",
+    "time_left_to_submission": "6 days left",
+    "submission_period_dates": "Jul 15 - Sep 09, 2024",
+    "themes": [
+      { "id": 1, "name": "Blockchain" },
+      { "id": 7, "name": "IoT" },
+      { "id": 22, "name": "Open Ended" }
+    ],
+    "prize_amount": "$<span data-currency-value>100,000</span>",
+    "organization_name": "Constellation Network",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Build", "list": [] },
+      {
+        "type": "description",
+        "text": "Build a project that integrates Constellation Hypergraph and submit it to one of the two tracks:",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Metagraph Projects: Utilize the Euclid SDK using Scala to create innovative metagraphs that push the boundaries of blockchain technology."
+          ],
+          [
+            "On-Chain Tooling: Develop tools that enhance interaction with and functionality of other network components in any programming language."
+          ]
+        ]
+      },
+      {
+        "type": "description",
+        "text": "We encourage participants to stretch the limits of traditional blockchain infrastructure using the unique attributes of Constellation Network and the Euclid SDK. Check out our list of suggested projects for inspiration!",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Submit", "list": [] },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Provide a URL to your public code repository (Github, etc.) for judging and testing. Repo should include complete setup and running instructions to allow judges to build and test the project. Projects may optionally include Docker images to run the project."
+          ],
+          [
+            "Include a video (should be 5 minutes or less) that demonstrates your submission. Videos must be uploaded to YouTube, Vimeo, or Facebook Video and made public."
+          ],
+          ["If deployed, please provide a URL to a functioning demo site."],
+          [
+            "Submit a complete description of your project, how it functions, and its potential impact on the Constellation ecosystem. Be as detailed as possible so that judges can fully understand your vision. Describe which portions are implemented and what features might be implemented in the future with more time."
+          ],
+          [
+            "If the project includes a token, provide an overview of the tokenomics. Explain the utility of the token and describe its initial and future distribution strategy."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21114,
+    "title": "Forest Hacks",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/873/773/datas/medium_square.png",
+    "analytics_identifier": "Forest Hacks (21114)",
+    "url": "https://foresthacks.devpost.com/",
+    "time_left_to_submission": "about 2 months left",
+    "submission_period_dates": "May 25 - Oct 31, 2024",
+    "themes": [
+      { "id": 17, "name": "Low/No Code" },
+      { "id": 22, "name": "Open Ended" },
+      { "id": 11, "name": "Productivity" }
+    ],
+    "prize_amount": "$<span data-currency-value>2,530</span>",
+    "organization_name": "ForestHackathons",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Submission Requirements:", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "At ForestHacks, we encourage you to unleash your creativity and build projects that can transform the world of education through technology. Here's a clear outline of what you need to build for the hackathon and the additional materials you should submit on Devpost:",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Project Development:", "list": [] },
+      {
+        "type": "description",
+        "text": "Develop a tech-based solution that targets a challenge or enhances learning experiences within the field of education. You have the freedom to choose the nature of your project \u2013 it can be a web application, mobile app, game, software tool, or any other innovative digital solution.",
+        "list": []
+      },
+      { "type": "description", "text": "Functioning Prototype:", "list": [] },
+      {
+        "type": "description",
+        "text": "Create a functioning prototype of your project that demonstrates its core features and functionalities. The more polished and user-friendly your prototype, the better.",
+        "list": []
+      },
+      { "type": "description", "text": "Code Repository:", "list": [] },
+      {
+        "type": "description",
+        "text": "Maintain a public code repository on a platform like GitHub, GitLab, or Bitbucket. This repository should contain all the source code, assets, and resources necessary for your project.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Demo Video or Presentation Deck:",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Demo Video: Produce a compelling demo video (up to 5 minutes) that effectively showcases your project's functionality and features. Use this video to explain how your solution addresses the chosen educational challenge or enhances learning experiences. Be creative and engaging in your presentation.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "OR Presentation Deck: Prepare a presentation deck (in PDF or PowerPoint format) that provides an overview of your project. Use this deck to narrate the story of your project, highlighting its purpose, features, and potential impact on education. Visuals, diagrams, and clear explanations are encouraged.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Research/Foundation Document:",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Produce a document that contains foundational and/or research for your project that helps the judges identify the direction and foundation, as well as, the basis of your project. For example, a project that uses Machine Learning to help with irrigation, should identify the water levels, or any other metrics used to build upon for the project.",
+        "list": []
+      },
+      { "type": "description", "text": "Technical Documentation:", "list": [] },
+      {
+        "type": "description",
+        "text": "Include a concise technical documentation document that outlines how to set up, configure, and use your project. Ensure that it is clear and comprehensible to help others understand the technical aspects of your solution.",
+        "list": []
+      },
+      { "type": "description", "text": "Team Information:", "list": [] },
+      {
+        "type": "description",
+        "text": "Provide the names and contact details of all team members. Include a brief introduction or bio for each team member, emphasizing their roles and contributions to the project.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Additional Materials (Optional):",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "If you have any supplementary materials that enhance your project's presentation, such as concept art, design mockups, user stories, or any other relevant content, feel free to include them.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "By adhering to these submission requirements, you'll be able to present your project comprehensively and effectively. We encourage you to think innovatively, push your creative boundaries, and strive to make a meaningful impact on education through your technological solution. Best of luck!",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] }
+    ]
+  },
+  {
+    "id": 21358,
+    "title": "SummerHacks By YCW",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/921/910/datas/medium_square.png",
+    "analytics_identifier": "SummerHacks By YCW (21358)",
+    "url": "https://summerhacks24.devpost.com/",
+    "time_left_to_submission": "about 1 month left",
+    "submission_period_dates": "Jun 10 - Oct 06, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 17, "name": "Low/No Code" },
+      { "id": 22, "name": "Open Ended" }
+    ],
+    "prize_amount": "$<span data-currency-value>10,380</span>",
+    "organization_name": "YouthCodingWorkshops",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Submission Requirements:", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "At Summer Hacks by YCW, we encourage you to unleash your creativity and build projects that can transform the world of education through technology. Here's a clear outline of what you need to build for the hackathon and the additional materials you should submit on Devpost:",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Project Development:", "list": [] },
+      {
+        "type": "description",
+        "text": "Develop a tech-based solution that targets a challenge or enhances learning experiences within the field of education. You have the freedom to choose the nature of your project \u2013 it can be a web application, mobile app, game, software tool, or any other innovative digital solution.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Functioning Prototype:", "list": [] },
+      {
+        "type": "description",
+        "text": "Create a functioning prototype of your project that demonstrates its core features and functionalities. The more polished and user-friendly your prototype, the better.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Code Repository:", "list": [] },
+      {
+        "type": "description",
+        "text": "Maintain a public code repository on a platform like GitHub, GitLab, or Bitbucket. This repository should contain all the source code, assets, and resources necessary for your project.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Demo Video:", "list": [] },
+      {
+        "type": "description",
+        "text": "Produce a compelling demo video (up to 5 minutes) that effectively showcases your project's functionality and features. Use this video to explain how your solution addresses the chosen educational challenge or enhances learning experiences. Be creative and engaging in your presentation.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Presentation Deck:", "list": [] },
+      {
+        "type": "description",
+        "text": "Prepare a presentation deck (in PDF or PowerPoint format) that provides an overview of your project. Use this deck to narrate the story of your project, highlighting its purpose, features, and potential impact on education. Visuals, diagrams, and clear explanations are encouraged.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Technical Documentation:", "list": [] },
+      {
+        "type": "description",
+        "text": "Include a concise technical documentation document that outlines how to set up, configure, and use your project. Ensure that it is clear and comprehensible to help others understand the technical aspects of your solution.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Team Information:", "list": [] },
+      {
+        "type": "description",
+        "text": "Provide the names and contact details of all team members. Include a brief introduction or bio for each team member, emphasizing their roles and contributions to the project.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "Additional Materials (Optional):",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "If you have any supplementary materials that enhance your project's presentation, such as concept art, design mockups, user stories, or any other relevant content, feel free to include them.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "By adhering to these submission requirements, you'll be able to present your project comprehensively and effectively. We encourage you to think innovatively, push your creative boundaries, and strive to make a meaningful impact on education through your technological solution. Best of luck!",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "", "list": [] }
+    ]
+  },
+  {
+    "id": 21626,
+    "title": "FuturistFest 2024 X NASA",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/922/169/datas/medium_square.png",
+    "analytics_identifier": "FuturistFest 2024 X NASA (21626)",
+    "url": "https://futuristfest-2024.devpost.com/",
+    "time_left_to_submission": "17 days left",
+    "submission_period_dates": "Jun 20 - Sep 20, 2024",
+    "themes": [
+      { "id": 28, "name": "Databases" },
+      { "id": 2, "name": "DevOps" },
+      { "id": 6, "name": "Machine Learning/AI" }
+    ],
+    "prize_amount": "$<span data-currency-value>13,197</span>",
+    "organization_name": "Stem Like Her",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "Submission Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Must utilize NASA\u2019s open-source data from https://data.nasa.gov/ or https://www.earthdata.nasa.gov/ (must end in .nasa.gov)"
+          ],
+          [
+            "Participants are required to submit a presentation containing no more than 25 slides."
+          ],
+          [
+            "Additionally, they must provide a link to a demo or prototype showcasing their project."
+          ],
+          [
+            "Participants should also submit a link to their project's source code, which will be evaluated for coding elegance."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22084,
+    "title": "MALWARE ANALYSIS HACKATHON @ IIT MADRAS",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/994/871/datas/medium_square.png",
+    "analytics_identifier": "MALWARE ANALYSIS HACKATHON @ IIT MADRAS (22084)",
+    "url": "https://malware-analysis-hackathon.devpost.com/",
+    "time_left_to_submission": "18 days left",
+    "submission_period_dates": "Aug 20 - Sep 21, 2024",
+    "themes": [
+      { "id": 9, "name": "Cybersecurity" },
+      { "id": 6, "name": "Machine Learning/AI" }
+    ],
+    "prize_amount": "\u20b9 <span data-currency-value>454,500</span>",
+    "organization_name": "IIT Madras",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "The Problem Statement", "list": [] },
+      {
+        "type": "description",
+        "text": "To perform a multi class classification on Malware data (RaDaR), present in a tabular format. The RaDaR data consists of multiple features that have been collected for a large number of malware. The task would be to develop a solution pipeline/design (pre-processing and model application) that can perform classification of Malware in a time efficient and accurate manner.",
+        "list": []
+      }
+    ]
+  },
+  {
+    "id": 21577,
+    "title": "AI Hackathon with Google Cloud ",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/997/360/datas/medium_square.png",
+    "analytics_identifier": "AI Hackathon with Google Cloud  (21577)",
+    "url": "https://googlecloudjapanaihackathon.devpost.com/",
+    "time_left_to_submission": "20 days left",
+    "submission_period_dates": "Jul 31 - Sep 23, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 6, "name": "Machine Learning/AI" },
+      { "id": 21, "name": "Enterprise" }
+    ],
+    "prize_amount": "\u00a5<span data-currency-value>2,050,000</span>",
+    "organization_name": "Google Inc",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "What to build: Build a new creative app running on Google Cloud that uses at least one of the following Google Cloud AI products AND at least one of the following Google Cloud Compute products listed below. At least (1) of the following Google Cloud AI products: Google Cloud Vertex AI Studio Google Cloud Vertex AI Agent Builder Vertex AI Platform Vertex AI Notebooks AutoML Natural Language AI Speech to Text Text to Speech Translation AI Vision AI Video AI Document AI DialogFlow Contact Center AI AND at least (1) of the following Google Cloud Compute products: Cloud Functions App Engine Cloud Run Google Kubernetes Engine Google Compute Engine What to Submit: Project built for one of the above categories with the two required developer tools URL to your project code repository for testing and judging Google Cloud Project ID Google Slide with your System Architecture Diagram (in Japanese) Text description that includes a summary of the Project\u2019s features and functionality (in Japanese) ~3-minute demonstration video of your Project (in Japanese) \u958b\u767a\u5185\u5bb9 \u6b21\u306e Google Cloud AI \u30d7\u30ed\u30c0\u30af\u30c8\u306e\u5c11\u306a\u304f\u3068\u3082 1 \u3064\u3068\u3001Google Cloud \u30b3\u30f3\u30d4\u30e5\u30fc\u30c8 \u30d7\u30ed\u30c0\u30af\u30c8\u306e\u5c11\u306a\u304f\u3068\u3082 1 \u3064\u3092\u4f7f\u7528\u3057\u3001Google Cloud \u4e0a\u3067\u5b9f\u884c\u3055\u308c\u308b\u65b0\u3057\u3044\u30af\u30ea\u30a8\u30a4\u30c6\u30a3\u30d6\u306a \u30a2\u30d7\u30ea\u3092\u958b\u767a\u3057\u3066\u304f\u3060\u3055\u3044\u3002 \u6b21\u306e Google Cloud AI \u30d7\u30ed\u30c0\u30af\u30c8\u306e\u3046\u3061\u3001\u5c11\u306a\u304f\u3068\u3082 1 \u3064\u306e\u30d7\u30ed\u30c0\u30af\u30c8\u3092\u4f7f\u7528 Google Cloud Vertex AI Studio Google Cloud Vertex AI Agent Builder Vertex AI Platform Vertex AI Notebooks AutoML Natural Language AI Speech to Text Text to Speech Translation AI Vision AI Video AI Document AI DialogFlow Contact Center AI \u304a\u3088\u3073\u6b21\u306e Google Cloud \u30b3\u30f3\u30d4\u30e5\u30fc\u30c8 \u30d7\u30ed\u30c0\u30af\u30c8\u306e\u3046\u3061\u3001\u5c11\u306a\u304f\u3068\u3082 1 \u3064\u306e\u30d7\u30ed\u30c0\u30af\u30c8\u3092\u4f7f\u7528 Cloud Functions App Engine Cloud Run Google Kubernetes Engine Google Compute Engine \u63d0\u51fa\u7269 \u4e0a\u8a18\u306b\u8a18\u8f09\u3055\u308c\u305f\u5fc5\u9808\u306e Google Cloud AI\u3001\u30b3\u30f3\u30d4\u30e5\u30fc\u30c8\u30d7\u30ed\u30c0\u30af\u30c8\u3092\u305d\u308c\u305e\u308c 1 \u3064\u4ee5\u4e0a\u4f7f\u7528 \u30c6\u30b9\u30c8\u3068\u5be9\u67fb\u7528\u306e\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u30b3\u30fc\u30c9\u30ea\u30dd\u30b8\u30c8\u30ea\u306e URL Google Cloud \u30d7\u30ed\u30b8\u30a7\u30af\u30c8 ID \u30b7\u30b9\u30c6\u30e0\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u56f3\u304c\u8a18\u8f09\u3055\u308c\u305f Google \u30b9\u30e9\u30a4\u30c9\uff08\u65e5\u672c\u8a9e\uff09 \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u6a5f\u80fd\u3068\u7279\u5fb4\u3092\u307e\u3068\u3081\u305f\u30c6\u30ad\u30b9\u30c8\u306b\u3088\u308b\u8aac\u660e\uff08\u65e5\u672c\u8a9e\uff09 \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e3\u5206\u4ee5\u5185\u306e\u30c7\u30e2\u52d5\u753b\uff08\u65e5\u672c\u8a9e\uff09",
+        "list": []
+      }
+    ]
+  },
+  {
+    "id": 21921,
+    "title": "TRON Grand Hackathon - HackaTRON Season 7",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/960/563/datas/medium_square.png",
+    "analytics_identifier": "TRON Grand Hackathon - HackaTRON Season 7 (21921)",
+    "url": "https://hackatron7.devpost.com/",
+    "time_left_to_submission": "about 1 month left",
+    "submission_period_dates": "Jul 25 - Oct 08, 2024",
+    "themes": [
+      { "id": 1, "name": "Blockchain" },
+      { "id": 18, "name": "Design" },
+      { "id": 25, "name": "Web" }
+    ],
+    "prize_amount": "$<span data-currency-value>650,000</span>",
+    "organization_name": "TRON DAO",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Build", "list": [] },
+      {
+        "type": "description",
+        "text": "Build a software application/dApp/website that integrates with the TRON/BTTC blockchain that fits into one of the following tracks:",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Web3: The Web3 track explores the decentralized future of the Internet. Participants are encouraged to create innovative projects in areas such as Artificial Intelligence, Decentralized Identity, Web3 Social Platforms, DeFi Solutions, Transparent Supply Chains, DAOs, and more! The focus is leveraging blockchain technology to empower users, enhance privacy, and redefine digital experiences."
+          ],
+          [
+            "Artistry: Step into a dynamic realm where entertainment converges with blockchain technology. Here, you can craft groundbreaking game ideas that not only embrace the creator economy and the limitless possibilities of NFT applications but also have the potential to redefine the future of gaming."
+          ],
+          [
+            "DeFi: DeFi continues to be a crucial movement for the crypto space as it enables finance to operate in an open, accessible, and transparent digital form. Looking for the next innovative DeFI solution that could provide accessible financial resources to billions of people."
+          ],
+          [
+            "Builder: A track for returning projects that continued development on TRON/BTTC and have created a significant blockchain update for their project. A significant blockchain integration update is required and not just UI or software updates."
+          ],
+          [
+            "Integration: The Integration Track challenges participants to integrate cutting-edge protocols into their own decentralized applications. Only the following protocols will be considered: HTX DAO, stUSDT, Just Ecosystem (Justlend, sTRX, Energy Rental), Sunswap, Sun Dapp Chain, ApeNFT, USDD, BitTorrent File System, Google Cloud."
+          ]
+        ]
+      },
+      { "type": "heading", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Submit", "list": [] },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Provide a URL to your code repository OR a link to a functional prototype for judging and testing."
+          ],
+          [
+            "Include a video (around 3 minutes) demonstrating your submission.",
+            [
+              [
+                "Videos must be uploaded to YouTube, Vimeo, or Facebook Video and made public."
+              ]
+            ]
+          ],
+          ["Identify which track you are submitting to."],
+          ["The completed submission form on Devpost before the deadline."]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "TRON DAO Forum Prizes $150,000+",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "You are REQUIRED to create a TRON DAO Forum project post for your hackathon project and update it throughout the hackathon period so that the judges and community can learn about your project as you are building it. Not only will this help bootstrap your community growth within the TRON and BTTC ecosystem, but you will also be able to win extra forum prizes if your project is amongst the best-voted projects by the forum community.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "TRON DAO Forum Project Post Steps:",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          ["Sign up on TRON DAO Forum."],
+          [
+            "Post your DevPost username on the main TRON DAO HackaTRON Season 7 Post. If you have already been accepted to the forum hackathon group in a previous season, you can skip this step."
+          ],
+          [
+            "Wait for approval to be added to the Hackathon group, which permits you to create a project post in the HackaTRON Season 7 category on the forum."
+          ],
+          [
+            "Post your project in the TRON Hackathon > HackaTRON 2024 Season 7 category on the TRON DAO Forum and tag it with one of the relevant tags: Web3, Artistry, DeFi, Builder, or Integration."
+          ],
+          [
+            "Follow the hackathon project post format given to create a new topic for your hackathon project."
+          ],
+          [
+            "You should update your project post actively as you made progress throughout the hackathon period."
+          ],
+          [
+            "You should also actively answer community questions in your project post, as the community will choose the Forum Hackathon winners."
+          ]
+        ]
+      },
+      {
+        "type": "description",
+        "text": "Please check the Official Rules for complete details.",
+        "list": []
+      }
+    ]
+  },
+  {
+    "id": 21651,
+    "title": "InnovateHacks 2.0",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/922/912/datas/medium_square.png",
+    "analytics_identifier": "InnovateHacks 2.0 (21651)",
+    "url": "https://innovatedhs.devpost.com/",
+    "time_left_to_submission": "2 months left",
+    "submission_period_dates": "Jun 14 - Nov 16, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 6, "name": "Machine Learning/AI" },
+      { "id": 22, "name": "Open Ended" }
+    ],
+    "prize_amount": "$<span data-currency-value>9,380</span>",
+    "organization_name": "Dublin Hack Club",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "What to Build:", "list": [] },
+      {
+        "type": "description",
+        "text": "The sky is the limit! Your task is to build anything that exemplifies innovation. No stringent requirements, just a canvas for you to paint your innovative ideas on. To aid in your endeavor, numerous Hack Club approved workshops and insightful sessions with guest speakers will be conducted throughout the hackathon.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "What to Submit:", "list": [] },
+      {
+        "type": "description",
+        "text": "A working prototype of your project. (Include links to github or upload code files) (optional)",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "A brief video (not exceeding 6 minutes) demonstrating the functionality and innovation behind your project.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "A concise write-up explaining the problem your project addresses, the solution it offers, and the technology stack utilized. (Question will be given when submitting)",
+        "list": []
+      }
+    ]
+  },
+  {
+    "id": 22018,
+    "title": "AfroTech AI Hackathon",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/980/970/datas/medium_square.png",
+    "analytics_identifier": "AfroTech AI Hackathon (22018)",
+    "url": "https://afrotech.devpost.com/",
+    "time_left_to_submission": "27 days left",
+    "submission_period_dates": "Aug 19 - Sep 30, 2024",
+    "themes": [
+      { "id": 6, "name": "Machine Learning/AI" },
+      { "id": 22, "name": "Open Ended" },
+      { "id": 13, "name": "Social Good" }
+    ],
+    "prize_amount": "$<span data-currency-value>15,000</span>",
+    "organization_name": "afrotech",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "The core objective of this initiative is to challenge participants to build their own applications that integrate LLM APIs of existing technologies via a virtual hackathon leading up to the AfroTech Conference.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "Participants will be challenged to build or update a software application that integrates APIs from Google Gemini or OpenAI and fits into one of the following categories:",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "list", "text": "", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "Submissions to the Hackathon must meet the following requirements:",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Include a Project built with the required developer tools and meets the above Project Requirements."
+          ],
+          [
+            "Include a text description that should explain the features and functionality of your Project."
+          ],
+          [
+            "Include a demonstration video of your Project. The video portion of the Submission:"
+          ],
+          [
+            [
+              "should be around three (3) minutes. Judges are not required to watch beyond three minutes"
+            ],
+            [
+              "should include footage that shows the Project functioning on the device for which it was built"
+            ],
+            [
+              "must be uploaded to and made publicly visible on YouTube, Vimeo, Facebook Video, or Youku, and a link to the video must be provided on the submission form on the Hackathon Website; and"
+            ],
+            [
+              "must not include third party trademarks, or copyrighted music or other material unless the Entrant has permission to use such material."
+            ]
+          ],
+          ["Include a URL to your public code repository"],
+          ["Include a public URL to your app"]
+        ]
+      },
+      { "type": "description", "text": "Multiple Submissions", "list": [] },
+      {
+        "type": "description",
+        "text": "An Entrant may submit more than one Submission, however, each Submission must be unique and substantially different from each of the Entrant\u2019s other Submissions, as determined by the Sponsor and Devpost in their sole discretion.",
+        "list": []
+      },
+      { "type": "description", "text": "Submission ownership", "list": [] },
+      {
+        "type": "description",
+        "text": "Be the original work of the Entrant, be solely owned by the Entrant, and not violate the IP rights of any other person or entity.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "", "list": [] }
+    ]
+  },
+  {
+    "id": 21685,
+    "title": "IngeniumSTEM Summer Hacks 2.0",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/940/738/datas/medium_square.png",
+    "analytics_identifier": "IngeniumSTEM Summer Hacks 2.0 (21685)",
+    "url": "https://ingenium-stem-2.devpost.com/",
+    "time_left_to_submission": "about 1 month left",
+    "submission_period_dates": "Jul 11 - Oct 11, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 13, "name": "Social Good" },
+      { "id": 17, "name": "Low/No Code" }
+    ],
+    "prize_amount": "$<span data-currency-value>256,379</span>",
+    "organization_name": "Ingenium STEM",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Build", "list": [] },
+      {
+        "type": "description",
+        "text": "For the Ingenium STEM Summer Hacks 2.0, participants are encouraged to create innovative and impactful projects that address various aspects of social good. Your project can take any form as long as it aims to make a positive difference in society. Here are some ideas to get you started:",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "AI-Powered Community Support Platform: Develop a platform leveraging AI to provide resources, support, and connectivity within communities. Intelligent Tutoring System: Create an AI-driven tutoring system that offers personalized learning experiences and helps students improve their academic performance. Sustainable Living Recommendation Engine: Build a recommendation engine that suggests sustainable living practices to individuals and households based on their lifestyle and preferences. Healthcare Predictive Analytics: Design a predictive analytics tool to help healthcare providers anticipate and prevent health issues, improving patient outcomes. Disaster Response AI Assistant: Develop an AI assistant to aid in disaster response efforts, providing real-time information, coordination, and support to affected individuals and responders. Inclusive Social Platform with Sentiment Analysis: Create a social platform that promotes inclusivity and uses sentiment analysis to detect and mitigate harmful content. Mental Health Monitoring and Support System: Build a system that monitors mental health indicators and provides timely support and resources to individuals in need. Civic Engagement Chatbot: Design a chatbot to encourage civic engagement, educate users on civic duties, and facilitate participation in community initiatives. Elderly Care AI Companion: Develop an AI companion to assist elderly individuals with daily tasks, provide companionship, and ensure their safety and well-being. AI-Driven Local Business Support System: Create a system that uses AI to support local businesses, offering insights, resources, and tools to help them thrive.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Remember, your project should leverage technology to solve real-world problems and create a tangible impact on society.",
+        "list": []
+      },
+      {
+        "type": "heading",
+        "text": "Make sure to use the sponsor's prizes and software. They will greatly help you build something useful for the hackathon. Also, best use cases of the sponsors will have a shoutout on our discord server!",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "For your submission to the Ingenium STEM Summer Hacks 2.0, please ensure you include the following:",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "GitHub Repository: Share a link to your GitHub repository containing all the source code, documentation, and any other relevant materials. Ensure your code is well-documented to help judges understand your implementation. Include a README file with a clear description of your project, the problem it addresses, the solution, and the impact it aims to make. Provide setup and usage instructions. Google Docs (for No-Code Projects): If your project is a no-code solution, provide a comprehensive Google Docs file detailing your project. This should include the problem statement, your solution, the impact, and how it addresses the topic of social good. Include screenshots, diagrams, and any other relevant materials to effectively convey your project's features and functionality. Online Project Link: If your project is deployed and available online, provide a link to the live project. Use platforms like Vercel, Heroku, GitHub Pages, or any other hosting service to make your project accessible for the judges to view and interact with. Submission Video (Optional): You may include a video (up to 3 minutes) demonstrating your project. This video should walk through your project, highlighting its features, functionality, and user interface. Mention the technologies used and how it addresses the topic of social good. Upload the video to a platform like YouTube or Vimeo and provide the link in your submission.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Make sure your submission is well-organized and easy to navigate. Clear and thorough documentation will help judges understand and evaluate your project effectively. Good luck, and we look forward to seeing your innovative solutions for social good!",
+        "list": []
+      }
+    ]
+  },
+  {
+    "id": 21359,
+    "title": "EduLearns - The Biggest Summer Hackathon",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/940/144/datas/medium_square.png",
+    "analytics_identifier": "EduLearns - The Biggest Summer Hackathon (21359)",
+    "url": "https://elsummer.devpost.com/",
+    "time_left_to_submission": "3 months left",
+    "submission_period_dates": "Jul 01 - Nov 30, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 17, "name": "Low/No Code" },
+      { "id": 22, "name": "Open Ended" }
+    ],
+    "prize_amount": "$<span data-currency-value>8,022</span>",
+    "organization_name": "EduLearnSummer",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Submission Requirements", "list": [] },
+      {
+        "type": "description",
+        "text": "At Summer Hacks by Edulearn, we encourage you to unleash your creativity and build projects that can transform the world of education through technology. Here's a clear outline of what you need to build for the hackathon and the additional materials you should submit on Devpost:",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Project Development:", "list": [] },
+      {
+        "type": "description",
+        "text": "Develop a tech-based solution that targets a challenge or enhances learning experiences within the field of education. You have the freedom to choose the nature of your project \u2013 it can be a web application, mobile app, game, software tool, or any other innovative digital solution.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Functioning Prototype:", "list": [] },
+      {
+        "type": "description",
+        "text": "Create a functioning prototype of your project that demonstrates its core features and functionalities. The more polished and user-friendly your prototype, the better.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Code Repository:", "list": [] },
+      {
+        "type": "description",
+        "text": "Maintain a public code repository on a platform like GitHub, GitLab, or Bitbucket. This repository should contain all the source code, assets, and resources necessary for your project.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Demo Video:", "list": [] },
+      {
+        "type": "description",
+        "text": "Produce a compelling demo video (up to 5 minutes) that effectively showcases your project's functionality and features. Use this video to explain how your solution addresses the chosen educational challenge or enhances learning experiences. Be creative and engaging in your presentation.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Presentation Deck:", "list": [] },
+      {
+        "type": "description",
+        "text": "Prepare a presentation deck (in PDF or PowerPoint format) that provides an overview of your project. Use this deck to narrate the story of your project, highlighting its purpose, features, and potential impact on education. Visuals, diagrams, and clear explanations are encouraged.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Technical Documentation:", "list": [] },
+      {
+        "type": "description",
+        "text": "Include a concise technical documentation document that outlines how to set up, configure, and use your project. Ensure that it is clear and comprehensible to help others understand the technical aspects of your solution.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Team Information:", "list": [] },
+      {
+        "type": "description",
+        "text": "Provide the names and contact details of all team members. Include a brief introduction or bio for each team member, emphasizing their roles and contributions to the project.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "Additional Materials (Optional):",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "If you have any supplementary materials that enhance your project's presentation, such as concept art, design mockups, user stories, or any other relevant content, feel free to include them.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "By adhering to these submission requirements, you'll be able to present your project comprehensively and effectively. We encourage you to think innovatively, push your creative boundaries, and strive to make a meaningful impact on education through your technological solution. Best of luck!",
+        "list": []
+      }
+    ]
+  },
+  {
+    "id": 21876,
+    "title": "CodeQuest AI Hackathon",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/951/579/datas/medium_square.jpeg",
+    "analytics_identifier": "CodeQuest AI Hackathon (21876)",
+    "url": "https://codequest-ai-hackathon.devpost.com/",
+    "time_left_to_submission": "9 days left",
+    "submission_period_dates": "Jul 16 - Sep 12, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 6, "name": "Machine Learning/AI" },
+      { "id": 13, "name": "Social Good" }
+    ],
+    "prize_amount": "$<span data-currency-value>786</span>",
+    "organization_name": "CodeQuest",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Build", "list": [] },
+      {
+        "type": "description",
+        "text": "At CodeQuest, we challenge you to create innovative AI solutions that address real-world problems across various domains. You may use different APIs on any platform of your choice.",
+        "list": []
+      },
+      { "type": "heading", "text": "What to Submit", "list": [] },
+      { "type": "description", "text": "Project Story:", "list": [] },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          ["A clear and concise title for your project."],
+          [
+            "A detailed description of the problem you are addressing and your AI solution. Explain the significance of the problem and the impact of your solution."
+          ],
+          [
+            "Code Repository (Optional):",
+            [
+              [
+                "GitHub Repository:",
+                "Provide a link to your project's GitHub repository. Ensure your code is well-documented and includes instructions for setting up and running the project."
+              ]
+            ]
+          ],
+          [
+            "Demo Video:",
+            [
+              [
+                "A 3-5 minute video demonstrating your solution. Highlight key features, how it works, and the problem it solves. Make sure to showcase the functionality and user interface, if applicable."
+              ]
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21940,
+    "title": "New Type Works Hacks",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/986/511/datas/medium_square.png",
+    "analytics_identifier": "New Type Works Hacks (21940)",
+    "url": "https://new-type-works-21940.devpost.com/",
+    "time_left_to_submission": "1 day left",
+    "submission_period_dates": "Aug 28 - Sep 05, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 13, "name": "Social Good" },
+      { "id": 25, "name": "Web" }
+    ],
+    "prize_amount": "$<span data-currency-value>225</span>",
+    "organization_name": "New Type Works",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Build", "list": [] },
+      {
+        "type": "description",
+        "text": "A website for a organization or a school club that you are part of using code. You are allowed to use: HTML/CSS/ JS, Bootstrap, React, Next.js, ect.... You will create a website about why someone should join and details on how to join.",
+        "list": []
+      },
+      { "type": "heading", "text": "What to Submit", "list": [] },
+      {
+        "type": "description",
+        "text": "Link to your website and source code",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "3-5 minute vedio explaining your project(Optional)",
+        "list": []
+      }
+    ]
+  },
+  {
+    "id": 21565,
+    "title": "Hack4Good Virtual Hackathon",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/958/531/datas/medium_square.jpg",
+    "analytics_identifier": "Hack4Good Virtual Hackathon (21565)",
+    "url": "https://hack4good-hackathon.devpost.com/",
+    "time_left_to_submission": "12 days left",
+    "submission_period_dates": "Aug 08 - Sep 15, 2024",
+    "themes": [
+      { "id": 3, "name": "Fintech" },
+      { "id": 25, "name": "Web" }
+    ],
+    "prize_amount": "$<span data-currency-value>1,000</span>",
+    "organization_name": "Hack4Good",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Build", "list": [] },
+      {
+        "type": "description",
+        "text": "A website or a desktop application using any programming language that suits you. The projects have to correlate to one of the following topic: financial services (fintech). In addition to that, prepare a small presentation or a document containing instructions on how to launch the project and description of it.",
+        "list": []
+      },
+      { "type": "heading", "text": "What to Submit", "list": [] },
+      {
+        "type": "description",
+        "text": "1. Source code of the project.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "2. Presentation/document containing instructions and description.",
+        "list": []
+      }
+    ]
+  },
+  {
+    "id": 21360,
+    "title": "TechHacks By TechTalks",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/940/147/datas/medium_square.png",
+    "analytics_identifier": "TechHacks By TechTalks (21360)",
+    "url": "https://tthacks.devpost.com/",
+    "time_left_to_submission": "3 months left",
+    "submission_period_dates": "Jul 02 - Nov 30, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 17, "name": "Low/No Code" },
+      { "id": 22, "name": "Open Ended" }
+    ],
+    "prize_amount": "$<span data-currency-value>9,798</span>",
+    "organization_name": "Tech Talks",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Submission Requirements", "list": [] },
+      {
+        "type": "description",
+        "text": "At TechHacks by TechTalks, we encourage you to unleash your creativity and build projects that can transform the world of education through technology. Here's a clear outline of what you need to build for the hackathon and the additional materials you should submit on Devpost:",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Project Development:", "list": [] },
+      {
+        "type": "description",
+        "text": "Develop a tech-based solution that targets a challenge or enhances learning experiences within the field of education. You have the freedom to choose the nature of your project \u2013 it can be a web application, mobile app, game, software tool, or any other innovative digital solution.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Functioning Prototype:", "list": [] },
+      {
+        "type": "description",
+        "text": "Create a functioning prototype of your project that demonstrates its core features and functionalities. The more polished and user-friendly your prototype, the better.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Code Repository:", "list": [] },
+      {
+        "type": "description",
+        "text": "Maintain a public code repository on a platform like GitHub, GitLab, or Bitbucket. This repository should contain all the source code, assets, and resources necessary for your project.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Demo Video:", "list": [] },
+      {
+        "type": "description",
+        "text": "Produce a compelling demo video (up to 5 minutes) that effectively showcases your project's functionality and features. Use this video to explain how your solution addresses the chosen educational challenge or enhances learning experiences. Be creative and engaging in your presentation.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Presentation Deck:", "list": [] },
+      {
+        "type": "description",
+        "text": "Prepare a presentation deck (in PDF or PowerPoint format) that provides an overview of your project. Use this deck to narrate the story of your project, highlighting its purpose, features, and potential impact on education. Visuals, diagrams, and clear explanations are encouraged.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Technical Documentation:", "list": [] },
+      {
+        "type": "description",
+        "text": "Include a concise technical documentation document that outlines how to set up, configure, and use your project. Ensure that it is clear and comprehensible to help others understand the technical aspects of your solution.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "description", "text": "Team Information:", "list": [] },
+      {
+        "type": "description",
+        "text": "Provide the names and contact details of all team members. Include a brief introduction or bio for each team member, emphasizing their roles and contributions to the project.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "Additional Materials (Optional):",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "If you have any supplementary materials that enhance your project's presentation, such as concept art, design mockups, user stories, or any other relevant content, feel free to include them.",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "By adhering to these submission requirements, you'll be able to present your project comprehensively and effectively. We encourage you to think innovatively, push your creative boundaries, and strive to make a meaningful impact on education through your technological solution. Best of luck!",
+        "list": []
+      },
+      { "type": "description", "text": "", "list": [] }
+    ]
+  },
+  {
+    "id": 21704,
+    "title": "Learn 2 Build 2024 Hackathon",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/928/065/datas/medium_square.jpg",
+    "analytics_identifier": "Learn 2 Build 2024 Hackathon (21704)",
+    "url": "https://learn-2-build.devpost.com/",
+    "time_left_to_submission": "27 days left",
+    "submission_period_dates": "Jul 25 - Sep 30, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 17, "name": "Low/No Code" },
+      { "id": 22, "name": "Open Ended" }
+    ],
+    "prize_amount": "$<span data-currency-value>7,873</span>",
+    "organization_name": "Learn 2 Build",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      { "type": "heading", "text": "What to Build", "list": [] },
+      {
+        "type": "description",
+        "text": "Free reign! Build anything you like, whether it's a video game, a web app, or a simple python game! Build anything you want! If you need any ideas, We recommend to build something that makes your life easier, or something you would want to use.",
+        "list": []
+      },
+      { "type": "heading", "text": "What to Submit", "list": [] },
+      {
+        "type": "description",
+        "text": "Please submit a 3 minute video of your app detailing it's Features , Purpose , Target Audience , and the resources used. Please include any neccessary documentation for the app.",
+        "list": []
+      }
+    ]
+  },
+  {
+    "id": 21418,
+    "title": "AnimalHack 2024",
+    "displayed_location": { "icon": "globe", "location": "Online" },
+    "open_state": "open",
+    "thumbnail_url": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/885/464/datas/medium_square.PNG",
+    "analytics_identifier": "AnimalHack 2024 (21418)",
+    "url": "https://animalhack2024.devpost.com/",
+    "time_left_to_submission": "4 days left",
+    "submission_period_dates": "Jun 01 - Sep 07, 2024",
+    "themes": [
+      { "id": 23, "name": "Beginner Friendly" },
+      { "id": 22, "name": "Open Ended" },
+      { "id": 13, "name": "Social Good" }
+    ],
+    "prize_amount": "$<span data-currency-value>0</span>",
+    "organization_name": "Binnovative",
+    "description": [
+      { "type": "heading", "text": "Requirements", "list": [] },
+      { "type": "description", "text": "", "list": [] },
+      {
+        "type": "description",
+        "text": "Project Work: AnimalHack is a \u201cflexible\u201d online hackathon. You can work on your project anytime until 12pm on September 7 (Sat), EST.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "Project Submission: You are required to complete ALL of the following 3 requirements:",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          [
+            "Submit your project to Devpost by",
+            "12pm on September 7 (Sat), EST",
+            "."
+          ],
+          [
+            "Register your project presentation on a Google Forms page by",
+            "12pm on September 7 (Sat), EST",
+            "."
+          ],
+          [
+            "Give a project presentation online at",
+            "September 8 (Sun), EST",
+            "."
+          ]
+        ]
+      },
+      {
+        "type": "description",
+        "text": "The deadlines are firm. No extensions will be given. Failure to meet the above requirements will disqualify you (and your team) in award judging.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "A link for presentation registration will be shared in the AnimalHack 2024 channel of Discord. To register your presentation, you will be asked to submit:",
+        "list": []
+      },
+      {
+        "type": "list",
+        "text": "",
+        "list": [
+          ["Your name and contact info"],
+          ["Your country of residence"],
+          ["Your project presentation title"],
+          ["An abstract (short one-paragraph description) of your project"],
+          [
+            "A publicly accessible link to your project placed on an online code repository (e.g. GitHub) or online storage (e.g. Google Drive). We will verify the actual outcome of your work with this link in the afternoon of September 7. Please note that",
+            "we will not schedule your presentation if we cannot verify your actual work.",
+            "You can submit a link to your project on Devpost; however, please make sure that the link references the actual outcome of your work."
+          ]
+        ]
+      },
+      {
+        "type": "description",
+        "text": "Project Presentation: We tentatively plan to start project presentations at 10am, September 8 (Sun), EST, but we might slightly adjust it based on the locations (time zones) where participants reside. We will announce the full presentation schedule by early morning of September 8 (Sun), EST. A Zoom link will be made available in the AnimalHack 2024 channel of Discord.",
+        "list": []
+      },
+      {
+        "type": "description",
+        "text": "You will have 10 minutes in total for your presentation, including approx. 3 minutes for QAs with judges and other participants.",
+        "list": []
+      }
+    ]
+  }
+]
