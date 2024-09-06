@@ -33,6 +33,7 @@ class DevpostHackathon(BaseModel):
     themes: List[Theme]
     prize_amount: str
     organization_name: str
+    registrations_count:int
     # winners_announced: bool
 
     @model_validator(mode="before")

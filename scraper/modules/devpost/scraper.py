@@ -78,7 +78,7 @@ async def scrape_hackathon_details(url: str, requirement_id: str) -> List[dict]:
                     if isinstance(child, Tag):
                         get_content(child, details)
             else:
-                print("Content not found")
+                print("Content not found on ",url)
             
             return details
 
