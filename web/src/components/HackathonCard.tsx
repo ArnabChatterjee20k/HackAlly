@@ -26,15 +26,15 @@ export default function HackathonCard() {
         </CardTitle>
         <p className="font-medium text-blue-800">Convex</p>
       </CardHeader>
-      <CardContent className="flex justify-between w-full">
-        <div className="flex max-w-[80%] flex-wrap gap-2">
+      <CardContent className="flex flex-col md:flex-row justify-between w-full gap-y-2">
+        <div className="flex md:max-w-[80%] flex-wrap gap-2">
           {themes.map((theme) => (
             <Badge className="cursor-pointer text-base bg-transparent border-gray-400 rounded-md text-blue-800 hover:bg-blue-100 hover:text-blue-500 hover:border-blue-800">
               {theme}
             </Badge>
           ))}
         </div>
-        <div className="flex flex-col w-full items-end gap-2">
+        <div className="flex items-center md:flex-col w-full md:items-end gap-2 mt-2 md:mt-0">
             <AvatarGroup/>
             <span className="text-balance text-base font-medium">+1000 participating</span>
         </div>
@@ -49,7 +49,7 @@ export default function HackathonCard() {
 }
 
 function AvatarGroup(){
-    return <div className="flex -space-x-3 mr-12">
+    return <div className="flex -space-x-3 md:mr-12">
         <AvatarIcon className="w-9 h-9"/>
         <AvatarIcon className="w-9 h-9"/>
         <AvatarIcon className="w-9 h-9"/>

@@ -30,8 +30,7 @@ export default function AvatarIcon({
           transform="translate(-1 -1) rotate(5 18 18) scale(1.2)"
           stroke="white"
           strokeWidth={2}
-          fill=" #173da7"
-          className="fill-blue-700"
+          fill="#18378d"
           rx="36"
         ></rect>
         <g transform="translate(-5 -2) rotate(-5 18 18)">

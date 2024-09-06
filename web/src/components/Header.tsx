@@ -4,7 +4,7 @@ import { PropsWithChildren } from "react";
 export default function Header({ children }: PropsWithChildren) {
   return (
     <header className=" bg-zinc-50 px-32 py-5">
-      <div className="flex">
+      <div className="flex max-w-[1800px] mx-auto">
         <Link
           href="#"
           className="font-nunito font-black text-3xl text-gray-900 mb-4 md:mb-0"
