@@ -3,6 +3,9 @@ import asyncio
 import json
 from .config import Config
 from modules.devpost.scraper import scrape_hackathon_details
+from modules.utils.datelib import generate_iso_timestamps
+import modules.constants.constants as constants
+
 from .schema import DevpostHackathon
 from uuid import uuid4
 
@@ -15,15 +18,21 @@ async def fetch_data(url):
             return data.get("hackathons", [])
 
 async def process_hackathon(hackathon):
-    # Deserialize hackathon data using the Pydantic model
     data = DevpostHackathon(**hackathon).model_dump(mode="python")
+    data["portal"] = constants.DEVPOST
     description_url = data["url"]
 
     # Scrape the hackathon details
     print(description_url)
     description_data = await scrape_hackathon_details(description_url, Config.scraper_paths[0])
     data["description"] = description_data
-
+    try:
+        submission_data = generate_iso_timestamps(data.get("submission_period_dates"))
+        data["starts_at"] = submission_data["start_date"]
+        data["ends_at"] = submission_data["end_date"]
+    except Exception as e:
+        data["starts_at"] = None
+        data["ends_at"] = None
     return data
 
 async def scrape_devpost():
@@ -33,6 +42,4 @@ async def scrape_devpost():
         hackathon["id"] = str(uuid4())[:8]
         tasks.append(process_hackathon(hackathon))
     results = await asyncio.gather(*tasks)
-
-    with open("data1.json", "w") as f:
-        json.dump(results, f)
+    return results

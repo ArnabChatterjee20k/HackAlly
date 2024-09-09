@@ -24,7 +24,6 @@ class DevpostHackathon(BaseModel):
     id: str
     title: str
     displayed_location: dict  # Assuming this could be more complex
-    open_state: str
     thumbnail_url: str
     analytics_identifier: str
     url: str

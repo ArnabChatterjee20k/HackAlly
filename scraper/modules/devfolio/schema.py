@@ -2,26 +2,22 @@ from pydantic import BaseModel, HttpUrl, Field
 from typing import List, Optional
 from datetime import datetime
 from pprint import pprint
-class DevfolioHackathon(BaseModel):
-    uuid: str
-    title: str = Field(alias="name")
-    displayed_location: str = Field(alias="location")
-    open_state: Optional[str] = None
-    thumbnail_url: Optional[HttpUrl] = Field(alias="logo", default=None)
-    slug: str
-    is_online: bool
-    themes: List[str]
-    organization_name: Optional[str] = Field(alias="hosted_by", default=None)
-    starts_at: datetime
-    ends_at: datetime
-    registration_open: Optional[datetime] = Field(alias="reg_starts_at", default=None)
-    registration_close: Optional[datetime] = Field(alias="reg_ends_at", default=None)
-    time_left_to_submission: Optional[str] = None
-    submission_period_dates: Optional[str] = None
-    description: str = Field(alias="desc")
 
-    class Config:
-        populate_by_name = True
+class DevfolioHackathon(BaseModel):
+    id: Optional[str] = None
+    uuid: Optional[str] = None
+    title: Optional[str] = Field(alias="name", default=None)
+    displayed_location: Optional[str] = Field(alias="location", default=None)
+    thumbnail_url: Optional[HttpUrl] = Field(alias="logo", default=None)
+    url: Optional[str] = Field(alias="slug")
+    is_online: Optional[bool] = None
+    themes: Optional[List[str]] = None
+    organization_name: Optional[str] = Field(alias="hosted_by", default=None)
+    starts_at: Optional[datetime] = None
+    ends_at: Optional[datetime] = None
+    description: Optional[str] = Field(alias="desc", default=None)
+    registrations_count: Optional[int] = Field(alias="participants_count")
+# Data input
 data = {
     "_source": {
         "country": "India",
@@ -194,5 +190,7 @@ data = {
 }
 
 source = data.get("_source")
-data = DevfolioHackathon(**source).dict()
-pprint(data)
+hackathon_data = DevfolioHackathon(**source).model_dump(mode="json")
+
+# Pretty print the parsed data
+pprint(hackathon_data)

@@ -1,3 +1,5 @@
+For open state and upcoming
+calculate by querying while sending the data
 ### UI
 main - https://www.frontendmentor.io/challenges/devjobs-web-app-HuvC_LP4l
 
@@ -16,3 +18,6 @@ https://chatgpt.com/share/d5e04ea3-6bce-44c8-9d2c-629a818a0515
 
 ### Scraper
 https://github.com/Theyflower/hackathonscraper/blob/master/src/hackscraper.py
+
+### Indexing 
+https://stackoverflow.com/questions/50301130/how-can-we-create-an-index-on-mongodb

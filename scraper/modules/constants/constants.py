@@ -1,0 +1,2 @@
+DEVPOST = "devpost"
+DEVFOLIO = "devfolio"
