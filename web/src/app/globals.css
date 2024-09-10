@@ -94,3 +94,11 @@ html,
 body {
   font-family: "Nunito", sans-serif;
 }
+
+.blob-header svg{
+  z-index: 0;
+}
+
+.blob-header * {
+  z-index: 1;
+}
