@@ -5,9 +5,9 @@ from .config import Config
 from modules.devpost.scraper import scrape_hackathon_details
 from modules.utils.datelib import generate_iso_timestamps
 import modules.constants.constants as constants
+from modules.utils.get_id import get_id
 
 from .schema import DevpostHackathon
-from uuid import uuid4
 
 async def fetch_data(url):
     async with aiohttp.ClientSession() as session:
@@ -39,7 +39,7 @@ async def scrape_devpost():
     hackathon_info = await fetch_data(Config.base)
     tasks = []
     for hackathon in hackathon_info:
-        hackathon["id"] = str(uuid4())[:8]
+        hackathon["id"] = get_id()
         tasks.append(process_hackathon(hackathon))
     results = await asyncio.gather(*tasks)
     return results
