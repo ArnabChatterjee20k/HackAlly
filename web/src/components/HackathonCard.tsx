@@ -41,7 +41,7 @@ export default function HackathonCard() {
       </CardContent>
       <CardFooter>
         <Button className="bg-blue-800 w-full hover:bg-blue-800" asChild>
-          <Link href="/login">Apply Now</Link>
+          <Link href="/discover/id">Apply Now</Link>
         </Button>
       </CardFooter>
     </Card>
