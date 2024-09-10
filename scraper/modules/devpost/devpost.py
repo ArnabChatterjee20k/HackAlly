@@ -24,15 +24,16 @@ async def process_hackathon(hackathon):
 
     # Scrape the hackathon details
     print(description_url)
-    description_data = await scrape_hackathon_details(description_url, Config.scraper_paths[0])
-    data["description"] = description_data
     try:
+        description_data = await scrape_hackathon_details(description_url, Config.scraper_paths[0])
+        data["description"] = description_data
         submission_data = generate_iso_timestamps(data.get("submission_period_dates"))
         data["starts_at"] = submission_data["start_date"]
         data["ends_at"] = submission_data["end_date"]
     except Exception as e:
         data["starts_at"] = None
         data["ends_at"] = None
+        data["description"] = []
     return data
 
 async def scrape_devpost():
