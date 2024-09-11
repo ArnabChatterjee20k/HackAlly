@@ -29,3 +29,9 @@ export function getEventDateStatus(
     return STATUS.OVER;
   }
 }
+
+
+export function getAvatarName(title:string){
+  const words = title.split(" ").map(word=>word[0])
+  return words.join("")
+}

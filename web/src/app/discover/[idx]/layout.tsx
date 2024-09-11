@@ -4,9 +4,12 @@ import React, { PropsWithChildren } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { getEventById } from "@/db/utils/events";
+import { getAvatarName } from "@/lib/utils";
 
 export default async function layout({children,params}:{ params: { idx: string } } & PropsWithChildren) {
   const event = await getEventById(params.idx)
+  const title = event?.title
+  const fallback = getAvatarName(title)
   return (
     <html>
       <body>
@@ -25,7 +28,7 @@ export default async function layout({children,params}:{ params: { idx: string }
             <div className="flex bg-white w-[90%] sm:w-[40%] mx-auto gap-3 rounded-sm">
               <Avatar className="rounded-tl-sm rounded-bl-sm rounded-tr-none rounded-br-none size-32">
                 <AvatarImage src={event?.thumbnail_url} alt="@shadcn" />
-                <AvatarFallback className="rounded-tl-sm rounded-bl-sm rounded-tr-none rounded-br-none">CN</AvatarFallback>
+                <AvatarFallback className="font-bold text-xl rounded-tl-sm rounded-bl-sm rounded-tr-none rounded-br-none">{fallback}</AvatarFallback>
               </Avatar>
               <div className="w-full flex flex-col md:flex-row items-center justify-between px-1 md:px-6 py-2">
                 <div>
