@@ -1,6 +1,6 @@
 import DescriptionLoader from "@/components/DescriptionLoader";
 import { Button } from "@/components/ui/button";
-import { Card, CardDescription, CardHeader } from "@/components/ui/card";
+import { Card, CardHeader } from "@/components/ui/card";
 import { Dot } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -24,9 +24,9 @@ export default function Page() {
             APPLY NOW
           </Button>
         </CardHeader>
-        <CardDescription className="px-6">
+        <div className="px-6">
           <DescriptionLoader data={data}/>
-        </CardDescription>
+        </div>
       </Card>
     </section>
   );
