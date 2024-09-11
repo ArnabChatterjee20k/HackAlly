@@ -3,8 +3,10 @@ import Link from "next/link";
 import React, { PropsWithChildren } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import { getEventById } from "@/db/utils/events";
 
-export default function layout({children}:PropsWithChildren) {
+export default async function layout({children,params}:{ params: { idx: string } } & PropsWithChildren) {
+  const event = await getEventById(params.idx)
   return (
     <html>
       <body>
@@ -22,7 +24,7 @@ export default function layout({children}:PropsWithChildren) {
           <div className="absolute -bottom-20 w-full mx-auto">
             <div className="flex bg-white w-[90%] sm:w-[40%] mx-auto gap-3 rounded-sm">
               <Avatar className="rounded-tl-sm rounded-bl-sm rounded-tr-none rounded-br-none size-32">
-                <AvatarImage src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/962/633/datas/medium_square.png" alt="@shadcn" />
+                <AvatarImage src={event?.thumbnail_url} alt="@shadcn" />
                 <AvatarFallback className="rounded-tl-sm rounded-bl-sm rounded-tr-none rounded-br-none">CN</AvatarFallback>
               </Avatar>
               <div className="w-full flex flex-col md:flex-row items-center justify-between px-1 md:px-6 py-2">

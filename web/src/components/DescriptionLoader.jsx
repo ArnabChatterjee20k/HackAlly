@@ -19,7 +19,10 @@ const DescriptionLoader = ({ data }) => {
               {renderList(sublist[0][1])}
             </li>
           ) : (
-            <li className="font-nunito text-base text-blue-950 font-light" key={index}>
+            <li
+              className="font-nunito text-base text-blue-950 font-light"
+              key={index}
+            >
               {sublist}
             </li>
           )
@@ -33,7 +36,9 @@ const DescriptionLoader = ({ data }) => {
       case "heading":
         return createElement(
           "h3",
-          { className: "font-nunito text-2xl text-blue-900 font-semibold my-4" },
+          {
+            className: "font-nunito text-2xl text-blue-900 font-semibold my-4",
+          },
           item.text
         );
       case "description":
@@ -54,7 +59,10 @@ const DescriptionLoader = ({ data }) => {
                   {renderList(sublist[0][1])}
                 </li>
               ) : (
-                <li className="font-nunito text-base text-blue-900 font-light" key={index}>
+                <li
+                  className="font-nunito text-base text-blue-900 font-light"
+                  key={index}
+                >
                   {sublist}
                 </li>
               )
@@ -68,16 +76,24 @@ const DescriptionLoader = ({ data }) => {
 
   return (
     <article id="challenge-requirements" className="space-y-6">
-      {data.map((item, index) =>
-        item.type === "heading" ? (
-          <div className="my-4" key={index}>
-            <h3 className="text-2xl text-blue-900 font-bold font-nunito">
-              {item.text}
-            </h3>
-            <Separator className="my-2" />
-          </div>
-        ) : (
-          <div key={index}>{renderItem(item)}</div>
+      {typeof data === "string" ? (
+        <p
+          dangerouslySetInnerHTML={{
+            __html: data.replace(/\n/g, "<br />"),
+          }}
+        />
+      ) : (
+        data?.map((item, index) =>
+          item.type === "heading" ? (
+            <div className="my-4" key={index}>
+              <h3 className="text-2xl text-blue-900 font-bold font-nunito">
+                {item.text}
+              </h3>
+              <Separator className="my-2" />
+            </div>
+          ) : (
+            <div key={index}>{renderItem(item)}</div>
+          )
         )
       )}
     </article>
