@@ -7,3 +7,4 @@ class Config:
         "from": "0",
         "size": "30"
     }
+    requirement_xpath = """//*[@id="__next"]/div[2]/div[2]/div/div/div[1]/div/div/span/img"""

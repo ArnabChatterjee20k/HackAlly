@@ -3,7 +3,9 @@ import asyncio
 from .config import Config
 from .schema import DevfolioHackathon
 import modules.constants.constants as constants
+from .scraper import scrape_hackathon_details
 from modules.utils.get_id import get_id
+from .config import Config
 
 async def fetch_data(url):
     async with aiohttp.ClientSession() as session:
@@ -17,6 +19,7 @@ async def process_hackathon(hackathon):
     data = DevfolioHackathon(**hackathon).model_dump(mode="python")
     data["portal"] = constants.DEVFOLIO
     data["id"] = get_id()
+    data["thumbnail_url"] = await scrape_hackathon_details(data["url"],Config.requirement_xpath)
     return data
 
 
