@@ -40,6 +40,12 @@ async def scrape_devpost():
     hackathon_info = await fetch_data(Config.base)
     tasks = []
     for hackathon in hackathon_info:
+        # we are taking the id first as here the uuid should be unique
+        # so we are using the portal's id as uuid
+        hackathon["uuid"] = str(hackathon.get("id"))
+        location = hackathon["displayed_location"].get("location")
+        hackathon["displayed_location"] = location
+        hackathon["is_online"] = location.lower() == "online"
         hackathon["id"] = get_id()
         tasks.append(process_hackathon(hackathon))
     results = await asyncio.gather(*tasks)

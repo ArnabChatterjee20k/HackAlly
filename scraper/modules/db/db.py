@@ -1,11 +1,12 @@
 from pymongo import MongoClient
 from pymongo.errors import BulkWriteError
-import json
 
 def get_db_and_collection(conn_string, db_name, collection_name):
     client = MongoClient(conn_string)
     db = client[db_name]
     collection = db[collection_name]
+    if not "uuid_1" in collection.index_information():
+        collection.create_index("uuid",unique=True)
     return db, collection
 
 def batch_insert_with_retry(collection, documents, max_retries=3):

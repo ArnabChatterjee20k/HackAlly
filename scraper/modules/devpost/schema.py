@@ -1,5 +1,5 @@
-from pydantic import BaseModel, HttpUrl, model_validator
-from typing import List
+from pydantic import BaseModel, HttpUrl, model_validator,Field
+from typing import List,Optional
 
 
 def ensureHttps(url):
@@ -22,8 +22,9 @@ class Theme(BaseModel):
 
 class DevpostHackathon(BaseModel):
     id: str
+    uuid: Optional[str]
     title: str
-    displayed_location: dict  # Assuming this could be more complex
+    displayed_location: str  # Assuming this could be more complex
     thumbnail_url: str
     analytics_identifier: str
     url: str
@@ -33,6 +34,7 @@ class DevpostHackathon(BaseModel):
     prize_amount: str
     organization_name: str
     registrations_count:int
+    is_online:bool
     # winners_announced: bool
 
     @model_validator(mode="before")
