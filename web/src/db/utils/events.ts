@@ -1,3 +1,4 @@
+export const revalidate = 0;
 import connectToDB from "../db";
 import events from "../models/Events";
 
