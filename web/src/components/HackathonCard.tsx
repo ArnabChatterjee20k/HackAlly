@@ -50,7 +50,7 @@ export default function HackathonCard({
         <CardTitle className="font-extrabold text-blue-900">{title}</CardTitle>
         <p className="font-medium text-blue-800">{organisation_name}</p>
       </CardHeader>
-      <CardContent className="flex flex-col items-center md:flex-row justify-between w-full gap-y-2">
+      <CardContent className="flex flex-col md:flex-row justify-between w-full gap-y-2">
         <div className="flex md:max-w-[80%] flex-wrap gap-2">
           <ThemeSection themes={themes} />
         </div>
