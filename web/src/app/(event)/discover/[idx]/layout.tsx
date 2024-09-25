@@ -10,7 +10,7 @@ export default async function layout({children,params}:{ params: { idx: string }
   const event = await getEventById(params.idx)
   const title = event?.title
   const fallback = getAvatarName(title)
-  return (
+  return ( 
     <html>
       <body>
         <header className="relative">

@@ -5,11 +5,12 @@ import { getEventById } from "@/db/utils/events";
 import { getEventDateStatus, STATUS } from "@/lib/utils";
 import { Dot } from "lucide-react";
 import Link from "next/link";
-
+import "../../../globals.css"
 import React from "react";
 
 
 export default async function Page({ params }: { params: { idx: string } }) {
+  if(!params.idx) return 
   const eventId = params.idx;
   const event = await getEventById(eventId);
   const status = getEventDateStatus(event?.starts_at, event?.ends_at);

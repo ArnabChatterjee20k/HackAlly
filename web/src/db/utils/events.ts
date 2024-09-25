@@ -7,7 +7,7 @@ const DEFAULT_PAGE = 1;
 
 export async function getEvents(
   page?: number,
-  limit?: number
+  limit?: number | null
 ): Promise<IEvents[]> {
   await connectToDB();
   const currentPage = (page || DEFAULT_PAGE) - 1;
