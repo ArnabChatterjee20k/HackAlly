@@ -5,6 +5,7 @@ import { IEvents } from "@/interfaces";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import useIsMobile from "@/hooks/useMobile";
+import SearchPopup from "@/components/SearchPopup";
 
 async function fetchEvents(page: number, isMobile: boolean) {
   let query = `/discover/api/?page=${page}&limit=${10}`;
@@ -44,7 +45,8 @@ export default function Discover({ events }: { events: IEvents[] }) {
   }, [inView]);
 
   return (
-    <>
+    <main className="flex flex-col justify-center my-5">
+      <SearchPopup />
       <section className="grid grid-cols-1 md:grid-cols-3 gap-7 px-3 md:px-32 py-7 max-w-[1500px] mx-auto">
         {data?.pages.flatMap((page, i) =>
           page.map(
@@ -85,6 +87,6 @@ export default function Discover({ events }: { events: IEvents[] }) {
           </button>
         </div>
       )}
-    </>
+    </main>
   );
 }
